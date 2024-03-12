@@ -1,0 +1,36 @@
+#ships{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: brown;
+}
+
+.ship-style{
+    background-color: yellow;
+}
+
+#ship1-small{
+    width: 100px;
+    height: 30px;
+}
+
+#gamecontainer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.board{
+    width: 420px;
+    height: 420px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}

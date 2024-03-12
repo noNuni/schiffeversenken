@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schiffe versenken</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="gamecontainer">
+        <div class="board" id="player"></div>
+        <div class="board" id="enemy"></div>
+    </div>
+    <div id="ships">
+        <div id="ship1-small" class="ship-style" draggable="true"></div>
+        <div id="ship2-small" class="ship1" draggable="true"></div>
+        <div id="ship3-small" class="ship1" draggable="true"></div>
+        <div id="ship4-small" class="ship1" draggable="true"></div>
+        <div id="ship5-small" class="ship1" draggable="true"></div>
+    </div>
+
+    <button id="flip" onclick="flip()">FLIP</button>
+    <button id="start">start</button>
+
+</body>
+</html>
